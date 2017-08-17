@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE familia [
+<!ELEMENT familia (padre,madre,hija,hijo,perro)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>
+<!ELEMENT hija (#PCDATA)>
+<!ELEMENT hijo (#PCDATA)>
+<!ELEMENT perro (#PCDATA)>
+]>
+<familia>
+<padre>BILLY</padre>
+<madre>JOSEFA</madre>
+<hija>PATRICIA</hija>
+<hijo>PATRICIO</hijo>
+<perro></perro>
+</familia>

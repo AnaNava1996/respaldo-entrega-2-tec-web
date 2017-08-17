@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE maraton [
+<!ELEMENT maraton (trayecto*)>
+<!ATTLIST maraton name CDATA #IMPLIED>
+<!ELEMENT trayecto (#PCDATA)>
+<!ATTLIST trayecto distancia CDATA #REQUIRED velocidad CDATA #REQUIRED>
+]>
+    
+<maraton name='Lincoln Natural Forest'>
+<trayecto distancia='2000' velocidad='mediana'>Paseo de la Reforma</trayecto>
+<trayecto velocidad='suave' distancia='4000'>Al rededor de Escom</trayecto>
+</maraton>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE universidad [
+<!ELEMENT universidad (profesor,alumno,aula,empleado)>
+<!ELEMENT profesor (nombre,apellido,telefono,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+]>
+<universidad>
+<profesor>
+<nombre>Tamara</nombre>
+<apellido>Morgan</apellido>
+<telefono>55-55555555</telefono>
+<direccion>Highway to Hell</direccion>
+</profesor>
+<alumno>Juana</alumno>
+<aula>Laboratorios</aula>
+<empleado>Conserje</empleado>
+</universidad>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nota [
+<!ELEMENT nota (para,de,encabezado,cuerpo)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT encabezado (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
+]>
+<nota>
+<para>Tommy</para>
+<de>Josefo</de>
+<encabezado>Re:Hola</encabezado>
+<cuerpo>No olvides el meeting del sabado</cuerpo>
+</nota>

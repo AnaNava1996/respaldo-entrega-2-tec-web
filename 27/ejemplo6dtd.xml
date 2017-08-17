@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE universidad [
+<!ELEMENT universidad (profesor,alumno,aula,empleado)>
+<!ELEMENT profesor (nombre,apellido,telefono,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre name CDATA #FIXED "Tamara">
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono numero (5511223344) #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion calle CDATA #FIXED "Highway to hell">
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+]>
+<universidad>
+<profesor>
+<nombre name="Tamara"/>
+<apellido>Morgan</apellido>
+<telefono numero="5511223344"/>
+<direccion calle ="Highway to hell"/>
+</profesor>
+<alumno>Juana</alumno>
+<aula>Laboratorios</aula>
+<empleado>Conserje</empleado>
+</universidad>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE escuela [
+<!ELEMENT escuela (profesor,alumno,aula,empleado)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+]>
+<escuela>
+<profesor>Tove</profesor>
+<alumno>Jani</alumno>
+<aula>Laboratorios</aula>
+<empleado>Conserje</empleado>
+</escuela>
