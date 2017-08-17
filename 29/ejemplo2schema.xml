@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<auto
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemplo2schema.xsd">
+  <marca>Seat</marca>
+  <submarca>Ibiza</submarca>
+  <modelo>2013</modelo>
+  <placa>s48ags</placa>
+</auto>

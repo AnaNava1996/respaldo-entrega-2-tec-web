@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemplo1schema.xsd">
+  <nombre>Maria</nombre>
+  <apellido>La del Barrio</apellido>
+  <estatura>1.6</estatura>
+  <edad>60</edad>
+</persona>

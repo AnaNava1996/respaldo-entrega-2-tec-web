@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<familia
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemplo5schema.xsd">
+  <padre>Tomas</padre>
+  <madre>el trencito</madre>
+  <hermano>3.5</hermano>
+  <hermana>4</hermana>
+  <elbebe>0</elbebe>
+</familia>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<familia
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemplo10schema.xsd">
+  <elbebe>Marcel</elbebe>
+  <labebe>Clara</labebe>
+  <elbebe2>Adrian</elbebe2>
+  <labebe2>Regina</labebe2>  
+  <hermano>
+    <nombre>Petronilo</nombre>
+    <apellido>Perez</apellido>
+  </hermano>
+  <hermana>
+    <nombre>Petronila</nombre>
+    <apellido>Perez</apellido>
+  </hermana>
+</familia>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<trencito
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemplo4schema.xsd">
+  <name>
+    <nombre>Tomas</nombre>
+    <apellido>el trencito</apellido>
+  </name>
+  <estatura>3</estatura>
+  <edad>4</edad>
+  <rodando_o_no>0</rodando_o_no>
+</trencito>
