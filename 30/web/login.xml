@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<class
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com login.xsd">
+
+<usuario>
+<!--id>55555</id-->
+<nombre>Peredo</nombre>
+<tipo>Profesor</tipo>
+<password>bobesponja</password>
+</usuario>
+
+<usuario>
+<!--id>55555</id-->
+<nombre>Ana</nombre>
+<tipo>Alumno</tipo>
+<password>bobesponja</password>
+</usuario>
+
+
+</class>
