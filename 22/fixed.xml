@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book)>
+<!ELEMENT book (#PCDATA)>
+<!ATTLIST book price CDATA #FIXED "5000">
+<!ATTLIST book author CDATA #FIXED "Mariana">
+<!ATTLIST book title CDATA #FIXED "Recetas fitness de Mariana">
+]>
+
+<bookstore>
+<book price="5000" author="Mariana" title="Recetas fitness de Mariana"/>
+</bookstore>
