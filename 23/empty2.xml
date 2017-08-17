@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE consecionario 
+[<!ELEMENT consecionario (mazda,toyota,seat,lamborghini,volkswagen)>
+<!ELEMENT mazda (#PCDATA|modelo|anno|caja)*>        <!--aqui no puedo poner empty si va a tener elementos hijos-->
+<!ELEMENT modelo (#PCDATA)>                                         <!--aqui no puedo poner empty si va a haber informacion del auto-->
+<!ELEMENT anno EMPTY>
+<!ELEMENT caja EMPTY>
+<!ELEMENT toyota (#PCDATA)>
+<!ELEMENT seat EMPTY>
+<!ELEMENT lamborghini EMPTY>
+<!ELEMENT volkswagen EMPTY>
+]>
+
+<consecionario>
+    <mazda>
+        <modelo>2013</modelo>               <!--Puedo poner las veces que quiera los elementos dentro del elemento mazda-->
+        <anno></anno>
+        <caja></caja>                           <!--cero o varias veces-->
+        <modelo></modelo>               <!--no necesariamente debe haber orden, porque en el elemento book no declare a sus hijos separados por comas-->
+        <modelo></modelo>
+    </mazda>
+    <toyota></toyota>
+    <seat></seat>
+    <lamborghini></lamborghini>
+    <volkswagen></volkswagen>
+</consecionario>

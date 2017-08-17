@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore 
+[<!ELEMENT bookstore (book,magazine,newspaper)>
+<!ELEMENT book ANY>         <!-- Si no estuviera el ANY, tendria que poner author cuantas veces haya especificado...-->
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT magazine (NationalGeography,Hola,Tu)>
+<!ELEMENT NationalGeography (#PCDATA)>
+<!ELEMENT Hola (#PCDATA)>
+<!ELEMENT Tu (#PCDATA)>
+<!ELEMENT newspaper (#PCDATA)>
+]>
+
+<bookstore>
+    <book>
+        <author>Marques de Sade</author>
+        <!--price></price-->               <!--COMENTARIO:-->
+        <category>Libro de cocina</category>
+        <author></author>
+        <author></author>
+    </book>
+    <magazine>
+        <NationalGeography></NationalGeography>
+        <Hola></Hola>
+        <Tu></Tu>
+    </magazine>
+    <newspaper></newspaper>
+</bookstore>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore 
+[<!ELEMENT bookstore (book,magazine,newspaper)>
+<!ELEMENT book (#PCDATA|author|price|category)*>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT magazine (#PCDATA)>
+<!ELEMENT newspaper (#PCDATA)>
+]>
+
+<bookstore>
+    <book>
+        <author></author>               <!--Puedo poner las veces que quiera los elementos dentro del elemento book-->
+        <category></category>        <!--cero o varias veces-->
+        <author></author>               <!--no necesariamente debe haber orden, porque en el elemento book no declare a sus hijos separados por comas-->
+        <author></author>
+    </book>
+    <magazine></magazine>
+    <newspaper></newspaper>
+</bookstore>

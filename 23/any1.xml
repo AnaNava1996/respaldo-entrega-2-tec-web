@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore 
+[<!ELEMENT bookstore (book,magazine,newspaper)>
+<!ELEMENT book ANY>         <!-- Si no estuviera el ANY tendria que poner esto (author,price,category) y lo del comentario de mas abajo-->
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT magazine (#PCDATA)>
+<!ELEMENT newspaper (#PCDATA)>
+]>
+
+<bookstore>
+    <book>
+        <!--author></author-->                <!--COMENTARIO-->
+        <!--price></price-->
+        <!--category></category-->
+    </book>
+    <magazine></magazine>
+    <newspaper></newspaper>
+</bookstore>

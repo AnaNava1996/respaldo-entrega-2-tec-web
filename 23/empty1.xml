@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore 
+[<!ELEMENT bookstore (book,magazine,newspaper)>
+<!ELEMENT book (author,price,category)>
+<!ELEMENT author EMPTY>     <!--no voy a escribir nada asi que lo puedo declarar EMPTY-->
+<!ELEMENT price EMPTY>
+<!ELEMENT category EMPTY>
+<!ELEMENT magazine EMPTY>
+<!ELEMENT newspaper EMPTY>
+]>
+
+<bookstore>
+    <book>
+        <author></author>
+        <price></price>
+        <category></category>
+    </book>
+    <magazine></magazine>
+    <newspaper></newspaper>
+</bookstore>
