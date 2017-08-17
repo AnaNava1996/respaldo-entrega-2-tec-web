@@ -1,0 +1,34 @@
+<!DOCTYPE bookstore 
+[
+<!ELEMENT book (title, year,price,code)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!NOTATION vrml PUBLIC "VRML 1.0">
+<!ATTLIST code lang NOTATION (vrml) #REQUIRED>
+
+<!ATTLIST book name CDATA "Harry Potter y el XML perdido">
+<!ATTLIST book codigo_producto ID #REQUIRED>
+<!ATTLIST book author NMTOKEN #REQUIRED>
+<!ATTLIST book codigo_author IDREF #IMPLIED>
+<!ATTLIST book codigo_written_books IDREFS #IMPLIED>
+<!ATTLIST book category (Ficcion|Academico|Literatura)  #REQUIRED>
+
+<!ATTLIST book portada ENTITIES #REQUIRED>
+  <!ENTITY portada1 SYSTEM
+    "http://www.biblioteca.com/results/cincuentasombras/portada1.gif">
+  <!ENTITY portada2 SYSTEM
+    "http://www.biblioteca.com/results/cincuentasombras/portada2.gif">
+
+<!ATTLIST book tecto ENTITY #REQUIRED>
+  <!ENTITY a SYSTEM
+    "http://www.biblioteca.com/results/cincuentasombras/textocompleto.pdf">
+
+]>
+
+
+<!--ATTLIST mountain
+  photo ENTITY #IMPLIED
+  photo_type NOTATION (GIF | JPG | PNG) #IMPLIED>
+<!ENTITY mt_cook_1 SYSTEM "mt_cook1.jpg"-->
