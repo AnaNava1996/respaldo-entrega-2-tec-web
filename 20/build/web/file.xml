@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuela>
+  <profesor id="1">
+    <nombre>RubÃ©n</nombre>
+    <apellido>Peredo</apellido>
+    <tipo>A</tipo>
+    <salario>10</salario>
+  </profesor>
+</escuela>
