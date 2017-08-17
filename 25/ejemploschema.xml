@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com ejemploschema.xsd">
+  <nombre>Maria</nombre>
+  <apellido>La del Barrio</apellido>
+  <estatura>1.6</estatura>
+  <edad>60</edad>
+  <vivo_o_muerto>1</vivo_o_muerto>
+  <fecha_de_nacimiento>1960-05-13</fecha_de_nacimiento>
+  <hora>07:00:00</hora>
+</persona>
